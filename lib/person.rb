@@ -8,15 +8,16 @@ class Person
     @name
   end
   
-  def job=(dogs_breed)
-    @breed = dogs_breed
+  def job=(person_job)
+    @job = person_job
   end
  
-  def breed
-    @breed
+  def job
+    @job
   end
 end
 
 beyonce = Person.new
 beyonce.name = "Beyonce"
 puts beyonce.name
+
