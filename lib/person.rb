@@ -8,6 +8,13 @@ class Person
     @name
   end
   
+  def job=(dogs_breed)
+    @breed = dogs_breed
+  end
+ 
+  def breed
+    @breed
+  end
 end
 
 beyonce = Person.new
